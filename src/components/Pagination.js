@@ -10,7 +10,7 @@ const Pagination = ({userData}) => {
         pages.push(i)
     }
 
-    
+    // Function to handle prev button
     const handleDecrement = () => {
         setCurrentPage(currentPage-1)
         if(currentPage-1 < 1) {
@@ -18,6 +18,7 @@ const Pagination = ({userData}) => {
         }
     }
 
+    // Function to handle next button
     const handleIncrement = () => {
         setCurrentPage(currentPage+1)
         if(currentPage+1 > totalPages) {

@@ -1,5 +1,6 @@
 import React from 'react'
 
+// Lazyload for card components
 const CardLoad = () => {
     
     return(

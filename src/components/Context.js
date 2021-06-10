@@ -10,7 +10,7 @@ const AppProvider = ({ children }) => {
     const [loading, setLoading] = useState(false)
     const [darkMode, setDarkMode] = useState(false)
     
-
+    // Fetching data from API
     useEffect(() => {
         const fetchData = async() => {
             setLoading(true)

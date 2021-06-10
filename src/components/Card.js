@@ -2,6 +2,7 @@ import React from 'react'
 import { FaPhoneAlt, FaEnvelope } from 'react-icons/fa'
 import { useGlobalContext } from './Context'
 
+// Card for user data
 const Card = ({firstName, lastName, phone, email, country, picture}) => {
     const {darkMode} = useGlobalContext()
 

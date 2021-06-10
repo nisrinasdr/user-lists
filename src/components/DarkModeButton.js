@@ -1,6 +1,7 @@
 import React from 'react'
 import { useGlobalContext } from './Context'
 
+// Button to switch mode
 const DarkModeButton = () => {
     const {darkMode, setDarkMode} = useGlobalContext()
 

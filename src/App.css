@@ -17,6 +17,8 @@ h2 {
   font-size: 1.2em;
 }
 
+/* Container */
+
 .container {
   display: flex;
   flex-direction: column;
@@ -31,6 +33,9 @@ h1.title {
   display: inline-block;
 }
 
+/* End of Container */
+
+/* Card */
 .card-container {
   margin-top: 2em;
   display: grid;
@@ -40,7 +45,6 @@ h1.title {
 
 .card {
   max-width: 500px;
-  /* height: 120px; */
   background: white;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
@@ -78,7 +82,9 @@ h1.title {
 .card-text-icon {
   margin-right: 0.5em;
 }
+/* End of Card */
 
+/* Pagination */
 .number-list > li {
   list-style: none;
   display: inline-block;
@@ -88,7 +94,6 @@ h1.title {
 }
 
 .number-list > li:hover, .number-list > .active {
-  /* background: white; */
   border-radius: 3px;
   background: #83CBCF;
 }
@@ -103,7 +108,9 @@ li > .prev, li > .next {
   background: transparent;
   border: none;
 }
+/* End of Pagination */
 
+/* Lazyload */
 .load {
   background-color: #E0E0E0;
   width: 100px;
@@ -121,7 +128,9 @@ li > .prev, li > .next {
   width: 100%;
   height: 1.3em;
 }
+/* End of Lazyload */
 
+/* Dark theme class */
 .card-dark {
   background-color: #333333;
   color: white;
@@ -135,8 +144,9 @@ li > .prev, li > .next {
 .icon-dark {
   fill: white;
 }
+/* End of dark theme class */
 
-
+/* Change theme button */
 .button-theme {
   border: none;
   cursor: pointer;
@@ -149,6 +159,7 @@ li > .prev, li > .next {
 .button-theme p {
   margin: auto;
 }
+/* End of change theme button */
 
 @media screen and (max-width: 1050px){
   .card-container {

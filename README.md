@@ -12,13 +12,13 @@ If you already have installed GIT on your computer, use git clone:
 * [NodeJS](https://nodejs.org/en/)
 * NPM
 
-After successfully installed NodeJS, the next step is to install the npm. Open the command prompt, change directory to the application folder, and run the following command:
+After successfully installed NodeJS, the next step is to install the npm. Open command prompt, change directory to the application folder, and run the following command:
 > npm install
 
 # INSTALLATION
 
 ## Run the app
-Open the command prompt and change directory to the application folder, run the following command afterward:
+Open command prompt and change directory to the application folder, run the following command afterward:
 
 > npm start
 

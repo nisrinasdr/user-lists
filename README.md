@@ -25,5 +25,5 @@ Open command prompt and change directory to the application folder, run the foll
 The app will run in development mode. If the app did not appear automatically, open http://localhost:3000 on your browser.
 
 ## Run the test
-To runs the test, run the following command:
+To run the test, run the following command:
 > npm test

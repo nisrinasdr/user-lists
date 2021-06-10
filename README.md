@@ -1,7 +1,7 @@
 # Clone the app
 ![clone the app](./src/gitclone.png)
 
-## Download zip files
+## Download ZIP file
 Download ZIP and then extract the zip.
 
 ## Git clone

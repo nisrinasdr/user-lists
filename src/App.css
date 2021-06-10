@@ -122,6 +122,34 @@ li > .prev, li > .next {
   height: 1.3em;
 }
 
+.card-dark {
+  background-color: #333333;
+  color: white;
+}
+
+.container-dark {
+  background-color: #151515;
+  color: white;
+}
+
+.icon-dark {
+  fill: white;
+}
+
+
+.button-theme {
+  border: none;
+  cursor: pointer;
+  padding: 1em;
+  font-size: 1em;
+  bottom: 2em;
+  margin-top: 2em;
+}
+
+.button-theme p {
+  margin: auto;
+}
+
 @media screen and (max-width: 1050px){
   .card-container {
     display: block;
@@ -137,6 +165,11 @@ li > .prev, li > .next {
     padding: 0.7em;
     margin: 0;
   }
+
+  .button-theme {
+    width: 200px;
+  }
+  
 }
 
 @media screen and (max-width: 500px){

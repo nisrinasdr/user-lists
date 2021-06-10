@@ -8,6 +8,7 @@ const AppProvider = ({ children }) => {
     const [dataPerPages, setDataPerPages] = useState(4)
     const [currentPage, setCurrentPage] = useState(1)
     const [loading, setLoading] = useState(false)
+    const [darkMode, setDarkMode] = useState(false)
     
 
     useEffect(() => {
@@ -48,8 +49,9 @@ const AppProvider = ({ children }) => {
         setDataPerPages,
         currentPage,
         setCurrentPage,
-        loading
-        
+        loading,
+        darkMode,
+        setDarkMode
     }}>{children}</AppContext.Provider>
 }
 

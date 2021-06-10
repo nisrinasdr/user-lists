@@ -3,7 +3,7 @@ import { FaAngleDoubleLeft, FaAngleDoubleRight } from 'react-icons/fa'
 import { useGlobalContext } from './Context'
 
 const Pagination = ({userData}) => {
-    const {dataPerPages, currentPage, setCurrentPage} = useGlobalContext()
+    const {dataPerPages, currentPage, setCurrentPage, darkMode} = useGlobalContext()
     const totalPages = userData.length / dataPerPages
     const pages = []
     for(let i=1 ; i<totalPages+1 ; i++) {
@@ -32,7 +32,7 @@ const Pagination = ({userData}) => {
                     <button 
                      className="prev"
                      >
-                        <FaAngleDoubleLeft />
+                        <FaAngleDoubleLeft className={darkMode? "icon-dark":null}/>
                     </button>
                 </li>
 
@@ -51,7 +51,7 @@ const Pagination = ({userData}) => {
                     <button 
                      className="next"
                      >
-                        <FaAngleDoubleRight />
+                        <FaAngleDoubleRight className={darkMode? "icon-dark":null}/>
                     </button>
                 </li>
             </ul>

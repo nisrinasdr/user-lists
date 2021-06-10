@@ -1,10 +1,12 @@
 import React from 'react'
 import { FaPhoneAlt, FaEnvelope } from 'react-icons/fa'
+import { useGlobalContext } from './Context'
 
 const Card = ({firstName, lastName, phone, email, country, picture}) => {
-    
+    const {darkMode} = useGlobalContext()
+
     return(
-        <div className="card">
+        <div className={darkMode? "card card-dark":"card"}>
             <img className="card-picture" src={picture} alt={firstName} />
             <div className="card-text">
                 <h2>{firstName} {lastName}</h2>
